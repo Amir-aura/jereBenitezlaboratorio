@@ -1,8 +1,8 @@
-def factorial_recursividad(n):
-    if n <= 1:
+def factorial_recursividad(NIGG):
+    if NIGG <= 1:
         return 1
     else:
-        return n * factorial_recursividad(n - 1)
+        return NIGG * factorial_recursividad(NIGG - 1)
 
 numero = 5
 resultado_factorial = factorial_recursividad(numero)
